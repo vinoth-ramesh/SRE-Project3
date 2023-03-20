@@ -1,0 +1,46 @@
+C:\Users\Vinoth\Desktop\Udacity\08-SRE\03-Roulete\nd087-c3-deployment-roulette>kubectl run debugpod --rm -i --tty --image nicolaka/netshoot -- /bin/bash
+If you don't see a command prompt, try pressing enter.
+debugpod:~# curl 172.20.93.80
+<html>
+<h1>This is version 2</h1>
+</html>
+debugpod:~# curl 172.20.93.80
+<html>
+<h1>This is version 1</h1>
+</html>
+debugpod:~# curl 172.20.93.80
+<html>
+<h1>This is version 2</h1>
+</html>
+debugpod:~# curl 172.20.93.80
+<html>
+<h1>This is version 1</h1>
+</html>
+debugpod:~# curl 172.20.93.80
+<html>
+<h1>This is version 2</h1>
+</html>
+debugpod:~# curl 172.20.93.80
+<html>
+<h1>This is version 1</h1>
+</html>
+debugpod:~# curl 172.20.93.80
+<html>
+<h1>This is version 1</h1>
+</html>
+debugpod:~# curl 172.20.93.80
+<html>
+<h1>This is version 2</h1>
+</html>
+debugpod:~# curl 172.20.93.80
+<html>
+<h1>This is version 1</h1>
+</html>
+debugpod:~# curl 172.20.93.80
+<html>
+<h1>This is version 2</h1>
+</html>
+debugpod:~# curl 172.20.93.80
+<html>
+<h1>This is version 2</h1>
+</html>

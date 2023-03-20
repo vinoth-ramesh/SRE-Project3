@@ -1,0 +1,22 @@
+Vinoth@Vinoth MINGW64 ~/Desktop/Udacity/08-SRE/03-Roulete/nd087-c3-deployment-roulette/starter (main)
+$ kubectl get pods --all-namespaces
+NAMESPACE     NAME                           READY   STATUS    RESTARTS   AGE
+kube-system   aws-node-464nt                 1/1     Running   0          124m
+kube-system   aws-node-gjntp                 1/1     Running   0          124m
+kube-system   coredns-f47955f89-dj265        1/1     Running   0          129m
+kube-system   coredns-f47955f89-kmqc6        1/1     Running   0          129m
+kube-system   kube-proxy-4q9tj               1/1     Running   0          124m
+kube-system   kube-proxy-twp7h               1/1     Running   0          124m
+udacity       blue-8475cbdf46-2f76d          1/1     Running   0          119m
+udacity       blue-8475cbdf46-rfttx          1/1     Running   0          119m
+udacity       blue-8475cbdf46-sdxvh          1/1     Running   0          119m
+udacity       canary-v1-64598c676f-55wdr     1/1     Running   0          119m
+udacity       canary-v1-64598c676f-jlhvt     1/1     Running   0          119m
+udacity       canary-v1-64598c676f-l6kqp     1/1     Running   0          119m
+udacity       canary-v2-5dc9c56687-jvp5h     1/1     Running   0          65s
+udacity       canary-v2-5dc9c56687-sq6tp     1/1     Running   0          81s
+udacity       canary-v2-5dc9c56687-zj6r6     1/1     Running   0          65s
+udacity       hello-world-794458d64d-mnmhh   1/1     Running   0          99m
+
+Vinoth@Vinoth MINGW64 ~/Desktop/Udacity/08-SRE/03-Roulete/nd087-c3-deployment-roulette/starter (main)
+$
